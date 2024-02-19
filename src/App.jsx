@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Statistics } from "./Statistics.jsx";
-import { Button } from "./button.jsx"
+import { Button } from "./Button.jsx"
 const App = () => {
   const [good, setGood] = useState(0);
   const [neutral, setNeutral] = useState(0);
