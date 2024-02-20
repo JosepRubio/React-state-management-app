@@ -21,20 +21,20 @@ const App = () => {
 
   const handleIncrementGood = () => {
     setGood((prevGood) => {
-      prevGood = prevGood + 1;
-      return prevGood;
+      const nextGood = prevGood + 1;
+      return nextGood;
     });
   };
   const handleIncrementNeutral = () => {
     setNeutral((prevNeutral) => {
-      prevNeutral = prevNeutral + 1;
-      return prevNeutral;
+      const nextNeutral = prevNeutral + 1;
+      return nextNeutral;
     });
   };
   const handleIncrementBad = () => {
     setBad((prevBad) => {
-      prevBad = prevBad + 1;
-      return prevBad;
+      const nextBad = prevBad + 1;
+      return nextBad;
     });
   };
   const handleRandom = () => {
